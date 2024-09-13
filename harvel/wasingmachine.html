@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washing Machine</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"/>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+crossorigin="anonymous"referrerpolicy="no-referrer"/>
+  <!-- Bootstrap CSS -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+  crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"/>
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+crossorigin="anonymous"referrerpolicy="no-referrer"/>
+
+<style>
+body{
+ overflow-x: hidden;
+ }
+@media (max-width: 991px) {
+    .slidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(100px);
+    }
+  }
+
+.dropdown:hover .dropdown-menu{
+display: block;
+
+}
+</style>
+  
+
+</head>
+<body>
+
+ <!-- ---navbar--- -->
+
+ <nav class="navbar navbar-expand-lg fixed-top bg-light shadow">
+  <div class="container-fluid">
+    <!-- ---logo--- -->
+    <a class="navbar-brand fs-4" href="../index.html"><img src="../project pics/qwer.png" alt="" style="height: 50px;"></a>
+    <!-- toggle-- -->
+    <button
+      class="navbar-toggler shadow-none border-0"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- ---slidebar--- -->
+    <div
+      class="slidebar offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+    <!-- ---slidebar header--- -->
+      <div class="offcanvas-header text-white border-bottom">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a class="navbar-brand fs-4" href="#"><img src="project pics/qwer.png" alt="" style="height: 50px;"></a></h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white shadow-none"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <!-- ---slidebar body -->
+      <div class="offcanvas-body d-flex flex-column p-5 flex-lg-row p-lg-0">
+        <ul class="navbar-nav justify-content-center align-items-center fs-6 flex-grow-1 pe-3">
+         
+          
+          
+            
+             
+            
+              
+    <li class="nav-item dropdown mx2">
+      <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+       Air Conditioner
+      </a>
+      <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="../harvel/ac.html">Orient</a></li>
+        <li><a class="dropdown-item" href="../haier.html/haierac.html">Haier</a></li>
+        <li><a class="dropdown-item" href="../pelac.html">Pel</a></li>
+        <li><a class="dropdown-item" href="../TV.mz/ac.html">Dawlance</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-item dropdown mx-2">
+      <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Refrigerator
+      </a>
+      <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="../harvel/refrigerator.html">Orient</a></li>
+        <li><a class="dropdown-item" href="../haier.html/haierfridge.html">Haier</a></li>
+        <li><a class="dropdown-item" href="../pelrefrigerator.html">Pel</a></li>
+        <li><a class="dropdown-item" href="../TV.mz/refrigrator.html">Dawlance</a></li>
+      </ul>
+    </li>
+
+
+       
+    <li class="nav-item dropdown mx-2">
+      <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Microwave Oven
+
+      </a>
+      <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="../harvel/oven.html">Orient</a></li>
+        <li><a class="dropdown-item" href="../haier.html/haieroven.html">Haier</a></li>
+        <li><a class="dropdown-item" href="../peloven.html">Pel</a></li>
+        <li><a class="dropdown-item" href="../TV.mz/oven.html">Dawlance</a></li>
+      </ul>
+    </li>
+
+    
+    <li class="nav-item dropdown mx-2">
+      <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Water Dispenser
+      </a>
+      <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="../harvel/dispenser.html">Orient</a></li>
+        <li><a class="dropdown-item" href="../haier.html/haierdispenser.html">Haier</a></li>
+        <li><a class="dropdown-item" href="../peldispenser.html">Pel</a></li>
+        <li><a class="dropdown-item" href="../TV.mz/dispenser.html">Dawlance</a></li>
+      </ul>
+    </li>
+
+    
+    <li class="nav-item dropdown mx-2">
+      <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Washing Machine
+      </a>
+      <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+       <li><a class="dropdown-item" href="../harvel/wasingmachine.html">Orient</a></li>
+        <li><a class="dropdown-item" href="../harvel/wasingmachine.html">Haier</a></li>
+        <li><a class="dropdown-item" href="../pelwash.html">Pel</a></li>
+        <li><a class="dropdown-item" href="../pelwash.html">Dawlance</a></li>
+      </ul>
+    </li> 
+
+   
+    
+  <li class="nav-item dropdown mx-2">
+      <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        LED TV
+      </a>
+      <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="../dawlancetv.html">Dawlance</a></li>
+         <li><a class="dropdown-item" href="../haiertv.html">Haier</a></li>
+       </ul>
+    </li>
+
+
+
+
+    <li class="nav-item mx-2">
+      <a class="nav-link active text-black" aria-current="page" href="../project/About Us.html">About Us</a>
+    </li>
+
+
+</ul>
+            <!-- ----login/sign up button   -->
+            <div class="d-flex flex-column justify-content-center align-items-center gap-3 flex-lg-row">
+              <a href="../HARVEL ELECTRONIC.docx" class="text-white text-decoration-none px-3 py-1 bg-primary rounded-4 " download="download" >Price List</a>
+        <a href="../login page/login.html" class="text-white text-decoration-none px-3 py-1 bg-primary rounded-4 " target="_blank" >Login / SignUp</a>
+           </div>
+      </div>
+    </div>
+  </div>
+</nav>
+  
+<!-- ----------------------------main image ---------------------------------->
+
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="images/headwashing.jpg" alt="" srcset="" class="img-fluid mt-5" width="100%">
+            </div>
+        </div>
+    </div>
+    
+<!-- ---------main heading -->
+
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Orient Washing Machine.</h1>
+
+            <p class="text-center">Harvel washing machine is loaded with useful features and heavy-duty specifications. This fully automatic washing machine offers a one-touch operation for super wash. Its Gflex technology gives you a better washing capacity. Twister series washing machine comes with 6 different washing functionalities. It also has 8 built-in water level options, so you can set the water level according to your requirement. With the child lock feature and Memory Function, the Orient Twister washing machine is your perfect cleaning partner.   </p>
+
+        </div>
+    </div>
+</div>
+
+<!-- ------------------------line 1 Images------------ -->
+
+<div class="container mt-5">
+    <div class="row">
+
+        <!-- image1 -->
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="images/wash1.jpg" alt="" srcset="" class="img-fluid">
+                <div class="card-body">
+                <h5>Twister 9050 8 Kg Metallic Grey</h5>
+                <p>Rs.46,393</p>
+                <a href="" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#i1">Add to Cart</a>
+            </div>
+            </div>
+            </div>
+
+<!------------------- modal i1 -->
+
+<div class="modal fade" id="i1">
+  <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+          <div class="modal-header text-secondary">
+             <h5> Product Successfully Added To Your Cart.</h5>
+              <button class="btn-close" data-bs-dismiss="modal"></button> 
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-md-6 mt-3">
+                     <div class="text-center">
+                      <img src="images/wash1.jpg" alt="" srcset="" class="img-fluid">
+                  </div>
+                      <div class="card-body text-center">
+                         <h3>Rs.46,393</h3> 
+                      </div>
+                     
+                  </div>
+                  <div class="col-md-6">
+                      <h4 class="text-center my-2">Twister 9050 8 Kg Metallic Grey.</h4>
+                      <hr>
+
+                      <h3 class="my-3 text-center">Description.</h3>
+                      <ul>
+                          <li class="my-2" id="mli">Orient Twister Series washing machine is loaded with useful features and heavy-duty specifications. This fully automatic washing machine offers a one-touch operation for super wash. Its Gflex technology gives you a better washing capacity. Twister series washing machine comes with 6 different washing functionalities. It also has 8 built-in water level options, so you can set the water level according to your requirement. With the child lock feature and Memory Function, the Orient Twister washing machine is your perfect cleaning partner.</li>
+                              
+                        </ul>   
+                        
+                        <h3 class="my-2 text-center">Features.</h3>
+                        <ul>
+                        <li>One Touch Operation.</li>
+                        <li>G-Flex Technology.</li>
+                        <li>6 Washing Functions.</li>
+                        <li>8 Water Levels.</li>
+                        <li>Water-Jet Pulsator.</li>
+                        <li>Oval Bulge Drum Technology.</li>
+                        <li>2 in 1 detergent box.</li>
+                        <li>Soft Close Top Lid.</li>
+                        <li>Smart Lint Filters.</li>
+                        </ul>
+                              
+                  </div>
+              </div>
+      
+      </div>
+      <div class="card-footer text-end">
+         
+        
+        <div class="gap-3 p-3">
+          <button class="btn btn-primary my-4 "><a href="../buypage.html" class="text-light text-decoration-none">Proceed To Checkout</a></button>
+          <button data-bs-dismiss="modal" class="btn-secondary  my-4 rounded-2" >Cancel</button>
+         </div>
+      </div>
+      </div>
+  </div>
+
+</div>
+        
+             <!-- image2 -->
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="images/wash2.jpg" srcset="" class="img-fluid">
+                <div class="card-body">
+                <h5>Twister 1050 9 Kg Metallic Grey</h5>
+                <p>Rs.54,966</p>
+                <a href="" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#i2">Add to Cart</a>
+                
+            </div>
+            </div>
+            </div> 
+       <!------------------- modal i1 -->
+
+<div class="modal fade" id="i2">
+  <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+          <div class="modal-header text-secondary">
+             <h5> Product Successfully Added To Your Cart.</h5>
+              <button class="btn-close" data-bs-dismiss="modal"></button> 
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-md-6 mt-3">
+                     <div class="text-center">
+                      <img src="images/wash2.jpg" alt="" srcset="" class="img-fluid">
+                  </div>
+                      <div class="card-body text-center">
+                         <h3>Rs.54,966</h3> 
+                      </div>
+                     
+                  </div>
+                  <div class="col-md-6">
+                      <h4 class="text-center my-2">Twister 1050 9 Kg Metallic Grey.</h4>
+                      <hr>
+
+                      <h3 class="my-3 text-center">Description.</h3>
+                      <ul>
+                          <li class="my-2" id="mli">Orient Twister Series washing machine is loaded with useful features and heavy-duty specifications. This fully automatic washing machine offers a one-touch operation for super wash. Its Gflex technology gives you a better washing capacity. Twister series washing machine comes with 6 different washing functionalities. It also has 8 built-in water level options, so you can set the water level according to your requirement. With the child lock feature and Memory Function, the Orient Twister washing machine is your perfect cleaning partner.</li>
+                              
+                        </ul>   
+                        
+                        <h3 class="my-2 text-center">Features.</h3>
+                        <ul>
+                        <li>One Touch Operation.</li>
+                        <li>G-Flex Technology.</li>
+                        <li>6 Washing Functions.</li>
+                        <li>8 Water Levels.</li>
+                        <li>Water-Jet Pulsator.</li>
+                        <li>Oval Bulge Drum Technology.</li>
+                        <li>2 in 1 detergent box.</li>
+                        <li>Soft Close Top Lid.</li>
+                        <li>Smart Lint Filters.</li>
+                        </ul>
+                              
+                  </div>
+              </div>
+      
+      </div>
+      <div class="card-footer text-end">
+         
+          <button class="btn btn-primary">Proceed To Checkout</button>
+          <button data-bs-dismiss="modal" class="btn-secondary" >Cancel</button>
+
+      </div>
+      </div>
+  </div>
+
+</div>
+             <!-- image3 -->
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="images/wash3.jpg" alt="" srcset="" class="img-fluid">
+                <div class="card-body">
+                <h5>Twister 1050 9 Kg Metallic Silver</h5>
+                <p>Rs.55,966</p>
+                <a href="" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#i3">Add to Cart</a>
+                
+            </div>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+<!------------------- modal i3 -->
+
+<div class="modal fade" id="i3">
+  <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+          <div class="modal-header text-secondary">
+             <h5> Product Successfully Added To Your Cart.</h5>
+              <button class="btn-close" data-bs-dismiss="modal"></button> 
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-md-6 mt-3">
+                     <div class="text-center">
+                      <img src="images/wash3.jpg" alt="" srcset="" class="img-fluid">
+                  </div>
+                      <div class="card-body text-center">
+                         <h3>Rs.55,966</h3> 
+                      </div>
+                     
+                  </div>
+                  <div class="col-md-6">
+                      <h4 class="text-center my-2">Twister 1050 9 Kg Metallic Silver.</h4>
+                      <hr>
+
+                      <h3 class="my-3 text-center">Description.</h3>
+                      <ul>
+                          <li class="my-2" id="mli">Orient Twister Series washing machine is loaded with useful features and heavy-duty specifications. This fully automatic washing machine offers a one-touch operation for super wash. Its Gflex technology gives you a better washing capacity. Twister series washing machine comes with 6 different washing functionalities. It also has 8 built-in water level options, so you can set the water level according to your requirement. With the child lock feature and Memory Function, the Orient Twister washing machine is your perfect cleaning partner.</li>
+                              
+                        </ul>   
+                        
+                        <h3 class="my-2 text-center">Features.</h3>
+                        <ul>
+                        <li>One Touch Operation.</li>
+                        <li>G-Flex Technology.</li>
+                        <li>6 Washing Functions.</li>
+                        <li>8 Water Levels.</li>
+                        <li>Water-Jet Pulsator.</li>
+                        <li>Oval Bulge Drum Technology.</li>
+                        <li>2 in 1 detergent box.</li>
+                        <li>Soft Close Top Lid.</li>
+                        <li>Smart Lint Filters.</li>
+                        </ul>
+                              
+                  </div>
+              </div>
+      
+      </div>
+      <div class="card-footer text-end">
+         
+        
+        <div class="gap-3 p-3">
+          <button class="btn btn-primary my-4 "><a href="../buypage.html" class="text-light text-decoration-none">Proceed To Checkout</a></button>
+          <button data-bs-dismiss="modal" class="btn-secondary  my-4 rounded-2" >Cancel</button>
+         </div>
+      </div>
+      </div>
+  </div>
+
+</div>
+<!-- ------------------------line 2 Images------------ -->
+
+<div class="container mt-5">
+    <div class="row">
+
+<!-- -------------image4 -->
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="images/wash4.jpg" alt="" srcset="" class="img-fluid">
+                <div class="card-body">
+                <h5>Twister 1150 10 Kg Metallic Grey</h5>
+                <p>Rs.57,991</p>
+                <a href="" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#i4">Add to Cart</a>
+                
+            </div>
+            </div>
+            </div> 
+       <!------------------- modal i4 -->
+
+<div class="modal fade" id="i4">
+  <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+          <div class="modal-header text-secondary">
+             <h5> Product Successfully Added To Your Cart.</h5>
+              <button class="btn-close" data-bs-dismiss="modal"></button> 
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-md-6 mt-3">
+                     <div class="text-center">
+                      <img src="images/wash4.jpg" alt="" srcset="" class="img-fluid">
+                  </div>
+                      <div class="card-body text-center">
+                         <h3>Rs.57,991</h3> 
+                      </div>
+                     
+                  </div>
+                  <div class="col-md-6">
+                      <h4 class="text-center my-2">Twister 1150 10 Kg Metallic Grey.</h4>
+                      <hr>
+
+                      <h3 class="my-3 text-center">Description.</h3>
+                      <ul>
+                          <li class="my-2" id="mli">Orient Twister Series washing machine is loaded with useful features and heavy-duty specifications. This fully automatic washing machine offers a one-touch operation for super wash. Its Gflex technology gives you a better washing capacity. Twister series washing machine comes with 6 different washing functionalities. It also has 8 built-in water level options, so you can set the water level according to your requirement. With the child lock feature and Memory Function, the Orient Twister washing machine is your perfect cleaning partner.</li>
+                              
+                        </ul>   
+                        
+                        <h3 class="my-2 text-center">Features.</h3>
+                        <ul>
+                        <li>One Touch Operation.</li>
+                        <li>G-Flex Technology.</li>
+                        <li>6 Washing Functions.</li>
+                        <li>8 Water Levels.</li>
+                        <li>Water-Jet Pulsator.</li>
+                        <li>Oval Bulge Drum Technology.</li>
+                        <li>2 in 1 detergent box.</li>
+                        <li>Soft Close Top Lid.</li>
+                        <li>Smart Lint Filters.</li>
+                        </ul>
+                              
+                  </div>
+              </div>
+      
+      </div>
+      <div class="card-footer text-end">
+         
+        
+        <div class="gap-3 p-3">
+          <button class="btn btn-primary my-4 "><a href="../buypage.html" class="text-light text-decoration-none">Proceed To Checkout</a></button>
+          <button data-bs-dismiss="modal" class="btn-secondary  my-4 rounded-2" >Cancel</button>
+         </div>
+      </div>
+      </div>
+  </div>
+
+</div>
+<!-- ---------------image5 -->
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="images/wash5.jpg" alt="" srcset="" class="img-fluid">
+                <div class="card-body">
+                <h5>Twister 1150 10 Kg Metallic Silver </h5>
+                <p>Rs.58,991</p>
+                <a href="" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#i5">Add to Cart</a>
+               
+            </div>
+            </div>
+        </div>
+<!------------------- modal i5 -->
+
+<div class="modal fade" id="i5">
+  <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+          <div class="modal-header text-secondary">
+             <h5> Product Successfully Added To Your Cart.</h5>
+              <button class="btn-close" data-bs-dismiss="modal"></button> 
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-md-6 mt-3">
+                     <div class="text-center">
+                      <img src="images/wash5.jpg" alt="" srcset="" class="img-fluid">
+                  </div>
+                      <div class="card-body text-center">
+                         <h3>Rs.58,991</h3> 
+                      </div>
+                     
+                  </div>
+                  <div class="col-md-6">
+                      <h4 class="text-center my-2">Twister 1150 10 Kg Metallic Silver.</h4>
+                      <hr>
+
+                      <h3 class="my-3 text-center">Description.</h3>
+                      <ul>
+                          <li class="my-2" id="mli">Orient Twister Series washing machine is loaded with useful features and heavy-duty specifications. This fully automatic washing machine offers a one-touch operation for super wash. Its Gflex technology gives you a better washing capacity. Twister series washing machine comes with 6 different washing functionalities. It also has 8 built-in water level options, so you can set the water level according to your requirement. With the child lock feature and Memory Function, the Orient Twister washing machine is your perfect cleaning partner.</li>
+                              
+                        </ul>   
+                        
+                        <h3 class="my-2 text-center">Features.</h3>
+                        <ul>
+                        <li>One Touch Operation.</li>
+                        <li>G-Flex Technology.</li>
+                        <li>6 Washing Functions.</li>
+                        <li>8 Water Levels.</li>
+                        <li>Water-Jet Pulsator.</li>
+                        <li>Oval Bulge Drum Technology.</li>
+                        <li>2 in 1 detergent box.</li>
+                        <li>Soft Close Top Lid.</li>
+                        <li>Smart Lint Filters.</li>
+                        </ul>
+                              
+                  </div>
+              </div>
+      
+      </div>
+      <div class="card-footer text-end">
+         
+         
+        <div class="gap-3 p-3">
+          <button class="btn btn-primary my-4 "><a href="../buypage.html" class="text-light text-decoration-none">Proceed To Checkout</a></button>
+          <button data-bs-dismiss="modal" class="btn-secondary  my-4 rounded-2" >Cancel</button>
+         </div>
+      </div>
+      </div>
+  </div>
+
+</div>
+        <!------------------- image6 -->
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="images/wash6.jpg" alt="" srcset="" class="img-fluid">
+                <div class="card-body">
+                <h5>Twister 1350 12 Kg Metallic Grey</h5>
+                <p>Rs.64,547</p>
+                <a href="" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#i6">Add to Cart</a>
+              
+            </div>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+<!------------------- modal i6 -->
+
+<div class="modal fade" id="i6">
+  <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+          <div class="modal-header text-secondary">
+             <h5> Product Successfully Added To Your Cart.</h5>
+              <button class="btn-close" data-bs-dismiss="modal"></button> 
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-md-6 mt-3">
+                     <div class="text-center">
+                      <img src="images/wash6.jpg" alt="" srcset="" class="img-fluid">
+                  </div>
+                      <div class="card-body text-center">
+                         <h3>Rs.54,547</h3> 
+                      </div>
+                     
+                  </div>
+                  <div class="col-md-6">
+                      <h4 class="text-center my-2">Twister 1350 12 Kg Metallic Grey.</h4>
+                      <hr>
+
+                      <h3 class="my-3 text-center">Description.</h3>
+                      <ul>
+                          <li class="my-2" id="mli">Orient Twister Series washing machine is loaded with useful features and heavy-duty specifications. This fully automatic washing machine offers a one-touch operation for super wash. Its Gflex technology gives you a better washing capacity. Twister series washing machine comes with 6 different washing functionalities. It also has 8 built-in water level options, so you can set the water level according to your requirement. With the child lock feature and Memory Function, the Orient Twister washing machine is your perfect cleaning partner.</li>
+                              
+                        </ul>   
+                        
+                        <h3 class="my-2 text-center">Features.</h3>
+                        <ul>
+                        <li>One Touch Operation.</li>
+                        <li>G-Flex Technology.</li>
+                        <li>6 Washing Functions.</li>
+                        <li>8 Water Levels.</li>
+                        <li>Water-Jet Pulsator.</li>
+                        <li>Oval Bulge Drum Technology.</li>
+                        <li>2 in 1 detergent box.</li>
+                        <li>Soft Close Top Lid.</li>
+                        <li>Smart Lint Filters.</li>
+                        </ul>
+                              
+                  </div>
+              </div>
+      
+      </div>
+      <div class="card-footer text-end">
+         
+          
+        <div class="gap-3 p-3">
+          <button class="btn btn-primary my-4 "><a href="../buypage.html" class="text-light text-decoration-none">Proceed To Checkout</a></button>
+          <button data-bs-dismiss="modal" class="btn-secondary  my-4 rounded-2" >Cancel</button>
+         </div>
+      </div>
+      </div>
+  </div>
+
+</div>
+<!-- ------------------------line 3 Images------------ -->
+
+<div class="container mt-5">
+    <div class="row">
+
+<!-- -------------image7 -->
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="images/wash7.jpg" alt="" srcset="" class="img-fluid">
+                <div class="card-body">
+                <h5>Twister 1350 12 Kg Metallic Silver</h5>
+                <p>Rs.64,547</p>
+                <a href="" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#i7">Add to Cart</a>
+                
+            </div>
+            </div>
+            </div> 
+       
+
+    </div>
+</div>
+<!------------------- modal i7 -->
+
+<div class="modal fade" id="i7">
+  <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+          <div class="modal-header text-secondary">
+             <h5> Product Successfully Added To Your Cart.</h5>
+              <button class="btn-close" data-bs-dismiss="modal"></button> 
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-md-6 mt-3">
+                     <div class="text-center">
+                      <img src="images/wash7.jpg" alt="" srcset="" class="img-fluid">
+                  </div>
+                      <div class="card-body text-center">
+                         <h3>Rs.64,547</h3> 
+                      </div>
+                     
+                  </div>
+                  <div class="col-md-6">
+                      <h4 class="text-center my-2">Twister 1350 12 Kg Metallic Silver.</h4>
+                      <hr>
+
+                      <h3 class="my-3 text-center">Description.</h3>
+                      <ul>
+                          <li class="my-2" id="mli">Orient Twister Series washing machine is loaded with useful features and heavy-duty specifications. This fully automatic washing machine offers a one-touch operation for super wash. Its Gflex technology gives you a better washing capacity. Twister series washing machine comes with 6 different washing functionalities. It also has 8 built-in water level options, so you can set the water level according to your requirement. With the child lock feature and Memory Function, the Orient Twister washing machine is your perfect cleaning partner.</li>
+                              
+                        </ul>   
+                        
+                        <h3 class="my-2 text-center">Features.</h3>
+                        <ul>
+                        <li>One Touch Operation.</li>
+                        <li>G-Flex Technology.</li>
+                        <li>6 Washing Functions.</li>
+                        <li>8 Water Levels.</li>
+                        <li>Water-Jet Pulsator.</li>
+                        <li>Oval Bulge Drum Technology.</li>
+                        <li>2 in 1 detergent box.</li>
+                        <li>Soft Close Top Lid.</li>
+                        <li>Smart Lint Filters.</li>
+                        </ul>
+                              
+                  </div>
+              </div>
+      
+      </div>
+      <div class="card-footer text-end">
+         
+         
+        <div class="gap-3 p-3">
+          <button class="btn btn-primary my-4 "><a href="../buypage.html" class="text-light text-decoration-none">Proceed To Checkout</a></button>
+          <button data-bs-dismiss="modal" class="btn-secondary  my-4 rounded-2" >Cancel</button>
+         </div>
+      </div>
+      </div>
+  </div>
+
+</div>
+
+
+<!--  -------footer------ -->
+<footer class="mt-5 " style="background-color: rgb(230, 230, 252); ">
+  <div class="container ">
+    <div class="row">
+      <!-- ----------dection 1--------- -->
+      <div class="col-md-6">
+<div class="row">
+  <div class="col-md-6">
+<a href="../index.html"><img src="../project pics/qwer.png" alt="" class="img-fluid mt-5" style=" height: 60px;"></a>
+<h6 class="mt-4 fw-bold">Our Location</h6>
+<p class="mt-2 " style="font-size: 15px;">26 km, Multan Rd, Maraka, Maraka Village, Lahore, Punjab 54000.</p>
+  </div>
+
+
+  <div class="col-md-6">
+
+<h6 class="mt-5 fw-bold">PRODUCTS</h6>
+<ul class="list-unstyled">
+  <a href="../pelac.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Air Conditioner</p></li></a>
+  <a href="../pelrefrigerator.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Refrigerator</p></li></a>
+  <a href="../haiertv.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">LED TV</p></li></a>
+  <a href="../peloven.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Microwave Oven</p></li></a>
+  <a href="../peldispenser.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Water Dispenser</p></li></a>
+  <a href="../pelwash.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Washing Machine</p></li></a>
+</ul>
+  </div>
+</div>
+      </div>
+
+
+<!------------------- section-2 -->
+
+
+<div class="col-md-6">
+<div class="row">
+
+  <div class="col-md-6">
+
+    <h6 class="mt-5 fw-bold">COMPANY</h6>
+    <ul class="list-unstyled">
+      <li><p style="font-size: 14px;">e-Comfort</p></li>
+      <li><p style="font-size: 14px;">B2B</p></li>
+      <li><p style="font-size: 14px;">FAQs</p></li>
+      <li><p style="font-size: 14px;">Blog</p></li>
+      <li><p style="font-size: 14px;">Contact Us</p></li>
+    </ul>
+  </div>
+
+
+<div class="col-md-6">
+  
+  <h6 class="mt-5 fw-bold">Support And Services</h6>
+  <ul class="list-unstyled">
+    <li><p style="font-size: 14px;">Terms of Services</p></li>
+    <li><p style="font-size: 14px;">Privacy Policy</p></li>
+    <li><p style="font-size: 14px;">Warranty & Claims</p></li>
+    <li><p style="font-size: 14px;">Return & Exchange</p></li>
+    <li><p style="font-size: 14px;">Cancellation Feedback</p></li>
+  </ul>
+
+
+  <h4 class="mt-5 fw-bold">FOLLOW US</h4>
+
+<ul class="list-unstyled mt-3">
+  <li class="list-inline-item "><a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook-f" style="color: #000000; "></i></a></li>
+  <li class="list-inline-item mx-2"><a href="https://twitter.com/login" target="_blank"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a></li>
+  <li class="list-inline-item mx-2"><a href="" target="_blank"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a></li>
+  <li class="list-inline-item mx-2"><a href="https://www.linkedin.com/login" target="_blank"><i class="fa-brands fa-linkedin-in" style="color: #000000;"></i></a></li>
+  <li class="list-inline-item mx-2"><a href="https://www.instagram.com/accounts/login" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a></li>
+</ul>
+
+  </div>
+  
+
+</div>
+
+</div>
+
+<hr>
+  <p style="font-size: 12px;" class="text-center fw-bold">&copy; 2023 - HARVEL A PROJECT OF ELECTRONICS PRODUCTS OF COMPANIES. ALL RIGHTS RESERVED.</p>
+
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

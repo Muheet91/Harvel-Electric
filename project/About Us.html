@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"/>
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+crossorigin="anonymous"referrerpolicy="no-referrer"/>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        body{
+            overflow-x: hidden;
+            }
+        @media (max-width: 991px) {
+               .slidebar {
+                   background-color: rgba(255, 255, 255, 0.15);
+                   backdrop-filter: blur(100px);
+               }
+             }
+        
+        .dropdown:hover .dropdown-menu{
+         display: block;
+         
+        }
+        </style>
+</head>
+<body>
+
+<!-- ---navbar--- -->
+
+<nav class="navbar navbar-expand-lg fixed-top bg-light shadow">
+    <div class="container-fluid">
+      <!-- ---logo--- -->
+      <a class="navbar-brand fs-4" href="../index.html"><img src="../project pics/qwer.png" alt="" style="height: 50px;"></a>
+      <!-- toggle-- -->
+      <button
+        class="navbar-toggler shadow-none border-0"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- ---slidebar--- -->
+      <div
+        class="slidebar offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+      <!-- ---slidebar header--- -->
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a class="navbar-brand fs-4" href="#"><img src="project pics/qwer.png" alt="" style="height: 50px;"></a></h5>
+          <button
+            type="button"
+            class="btn-close btn-close-white shadow-none"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <!-- ---slidebar body -->
+        <div class="offcanvas-body d-flex flex-column p-5 flex-lg-row p-lg-0">
+          <ul class="navbar-nav justify-content-center align-items-center fs-6 flex-grow-1 pe-3">
+           
+            
+            
+              
+               
+              
+                
+      <li class="nav-item dropdown mx2">
+        <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Air Conditioner
+        </a>
+        <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="../harvel/ac.html">Orient</a></li>
+          <li><a class="dropdown-item" href="../haier.html/haierac.html">Haier</a></li>
+          <li><a class="dropdown-item" href="../pelac.html">Pel</a></li>
+          <li><a class="dropdown-item" href="../TV.mz/ac.html">Dawlance</a></li>
+        </ul>
+      </li>
+  
+      <li class="nav-item dropdown mx-2">
+        <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Refrigerator
+        </a>
+        <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="../harvel/refrigerator.html">Orient</a></li>
+          <li><a class="dropdown-item" href="../haier.html/haierfridge.html">Haier</a></li>
+          <li><a class="dropdown-item" href="../pelrefrigerator.html">Pel</a></li>
+          <li><a class="dropdown-item" href="../TV.mz/refrigrator.html">Dawlance</a></li>
+        </ul>
+      </li>
+  
+  
+         
+      <li class="nav-item dropdown mx-2">
+        <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Microwave Oven
+  
+        </a>
+        <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="../harvel/oven.html">Orient</a></li>
+          <li><a class="dropdown-item" href="../haier.html/haieroven.html">Haier</a></li>
+          <li><a class="dropdown-item" href="../peloven.html">Pel</a></li>
+          <li><a class="dropdown-item" href="../TV.mz/oven.html">Dawlance</a></li>
+        </ul>
+      </li>
+  
+      
+      <li class="nav-item dropdown mx-2">
+        <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Water Dispenser
+        </a>
+        <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="../harvel/dispenser.html">Orient</a></li>
+          <li><a class="dropdown-item" href="../haier.html/haierdispenser.html">Haier</a></li>
+          <li><a class="dropdown-item" href="../peldispenser.html">Pel</a></li>
+          <li><a class="dropdown-item" href="../TV.mz/dispenser.html">Dawlance</a></li>
+        </ul>
+      </li>
+  
+      
+      <li class="nav-item dropdown mx-2">
+        <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Washing Machine
+        </a>
+        <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+         <li><a class="dropdown-item" href="../harvel/wasingmachine.html">Orient</a></li>
+          <li><a class="dropdown-item" href="../harvel/wasingmachine.html">Haier</a></li>
+          <li><a class="dropdown-item" href="../pelwash.html">Pel</a></li>
+          <li><a class="dropdown-item" href="../pelwash.html">Dawlance</a></li>
+        </ul>
+      </li> 
+  
+     
+      
+    <li class="nav-item dropdown mx-2">
+        <a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          LED TV
+        </a>
+        <ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="../dawlancetv.html">Dawlance</a></li>
+           <li><a class="dropdown-item" href="../haiertv.html">Haier</a></li>
+         </ul>
+      </li>
+  
+  
+  
+  
+      <li class="nav-item mx-2">
+        <a class="nav-link active text-black" aria-current="page" href="../project/About Us.html">About Us</a>
+      </li>
+  
+  
+  </ul>
+              <!-- ----login/sign up button   -->
+              <div class="d-flex flex-column justify-content-center align-items-center gap-3 flex-lg-row">
+                <a href="../HARVEL ELECTRONIC.docx" class="text-white text-decoration-none px-3 py-1 bg-primary rounded-4 " download="download" >Price List</a>
+          <a href="../login page/login.html" class="text-white text-decoration-none px-3 py-1 bg-primary rounded-4 " target="_blank" >Login / SignUp</a>
+             </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!----------------------------------------------------------------------banner-------------------------------------------------------------------------->
+<div class="container-fluid mt-5">
+    <div class="row">
+    <div class="col-md-12">
+        <img src="images/pel-about-the-company.jpg" alt="" class="img-fluid mt-5">
+    </div>
+    </div>
+</div>
+<!------------------------------------------------------------------2nd content------------------------------------------------------------------------->
+<div class="container">
+        <div class="row">
+        <div class="col-md-6 my-5 px-2">
+     
+            <h1 class="tittle">THERE IS A HARVEL</h1>
+        <h5 class="mtittle">IN EVERY HOME!</h3>
+    
+        <div>
+            <p class="para1">Harvel contributes in your lives every day, by providing you not just appliances for a better lifestyle, but with Power products like transformers, switch gears and energy meters. We are the pioneers of electrical manufacturing in Pakistan and we are here to make a difference in your lives whether it is through taking care of your home, your lifestyle, making your day to day activities easier or by helping you save energy.</p>
+        
+   </div>
+    </div>
+
+
+    <div class="col-md-6 my-5">
+        <div class="card-body">
+          <img src="images/pel-about-us-banner.jpg" alt="" class="img-fluid">
+        </div>
+    </div>
+</div>
+</div>
+
+<!------------------------------------------------------------------3rd content--------------------------------------------------------------------------->
+<div class="container-fluid bg-dark">
+<div class="container">
+<div class="row">
+<div class="col-md-12 my-5 text-center px-2">
+<h5 class="mtittle text-light">WE ARE HERE TO</h5>
+<h1 class="tittle text-light">“CHANGE YOUR LIFE”.</h2>
+<p class="text-light para">Since its inception, HARVEL has been operating keeping in view the philosophy of innovation and advancement. It has consistently contributed in the development of engineering sector in Pakistan, keeping in mind the National interest and consumer welfare. It has introduced a range of quality electrical equipments and home appliances by producing hundreds of engineers, skilled workers and technicians through its apprenticeship schemes and training programmes. Until the acquisition by Saigol Group, HARVEL was solely catering the power equipment market but in 1981 the company ventured into home appliances market in 1981 as a part of Group's long term strategy of diversification.</p>
+</div>
+</div>
+</div>
+</div> 
+
+<!--------------------------------------------------------------------4th content---------------------------------------------------------------------->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 my-5 px-2">
+            <h1 class="text-center text-secondary tittleo">HARVEL GROUP HAS TWO DIVISIONS</h1>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------------------------------------5th content----------------------------------------------------------------------->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 my-5">
+            <img src="images/orient.jpeg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-6 my-5">
+            <img src="images/transformer.jpg" alt="" class="img-fluid">
+        </div>
+</div>
+</div>
+
+
+<!-- ------------------------------------------------------------------6th content------------------------------------------------------------- -->
+
+
+    <div class="container">
+        <div class="row mx-4">
+            <div class="col-md-12">
+           <h1 class="tittle text-center">COMPANY PROFILE</h1>
+         </div>
+         <div class="col-md-12 us my-3 py-3 bg-dark">
+           <a href="https://pel.com.pk/wp-content/uploads/2018/03/PEL-Company-Profile-Status-of-Company.pdf" class="btn1 text-light">Status of Company</a>
+           <a href="https://pel.com.pk/wp-content/uploads/2018/03/PEL-Company-Profile-Status-of-Company.pdf" class="btn float-end">VIEW PDF</a>
+         </div>
+         <div class="col-md-12 us my-3 py-3 bg-dark">
+           <a href="https://pel.com.pk/wp-content/uploads/2018/03/PEL-Company-SECP-Registration-No.pdf" class="btn1 text-light">SECP Registration No.</a>
+           <a href="https://pel.com.pk/wp-content/uploads/2018/03/PEL-Company-SECP-Registration-No.pdf" class="btn float-end">VIEW PDF</a>
+         </div>
+         <div class="col-md-12 us my-3 py-3 bg-dark">
+           <a href="https://pel.com.pk/wp-content/uploads/2018/03/PEL-NTN-No.pdf" class="btn1 text-light">NTN No.</a>
+           <a href="https://pel.com.pk/wp-content/uploads/2018/03/PEL-NTN-No.pdf" class="btn float-end">VIEW PDF</a>
+         </div>
+         <div class="col-md-12 us my-3 py-3 bg-dark">
+            <a href="https://pel.com.pk/wp-content/uploads/2018/03/PEL-Contact.pdf" class="btn1 text-light">Contact</a>
+           <a href="https://pel.com.pk/wp-content/uploads/2018/03/PEL-Contact.pdf" class="btn float-end">VIEW PDF</a>
+         </div>
+         <div class="col-md-12 us my-3 py-3 bg-dark">
+           <a href="https://pel.com.pk/wp-content/uploads/2018/03/PEL-Associated-Companies.pdf" class="btn1 text-light">Associated Companies</a>
+           <a href="https://pel.com.pk/wp-content/uploads/2018/03/PEL-Associated-Companies.pdf" class="btn float-end">VIEW PDF</a>
+         </div>
+         
+
+        </div>
+    </div>
+
+
+<!-----------------------------------------------------------------------content 7---------------------------------------------------------->
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-5">
+                <h1 class="vm">Our Vision</h1>
+                <p class="text-secondary para">We inspire our world to experience new possibilities, through innovation and service excellence, for a healthier and safer future</p>
+            </div>
+            <div class="col-md-12">
+                <h1 class="vm">Our Mission</h1>
+                <p class="text-secondary para">
+                    We are committed to offer a wide range of reliable products and services to attain market leadership. We are determined to maximize value for all stakeholders through constant innovation, high-performance culture, and the ultimate consumer experience.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------------------------------------------------content 8------------------------------------------------------------------>
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 brd">
+              <h1 class="tittle">BOARD OF DIRECTORS</h1>
+              </div>
+             </div>
+              <div class="row cardrow">
+              <div class="col-md-3">
+                <div class="card">
+                    <img src="images/Mian_Talat.webp" alt="">
+                    <div class="card-body">
+                            <h5 class="card-tittle text-center">Mian Talat Mahmood</h5>
+                            <p class=" text-center">Managing Director</p>
+                    </div>
+                </div>
+            </div>
+              <div class="col-md-3">
+                <div class="card">
+                    <img src="images/Mian_Ahmad_Fazal.webp" alt="">
+                    <div class="card-body">
+                            <h5 class="card-tittle text-center">Mian Ahmad Fazal</h5>
+                            <p class=" text-center">Executive Director</p>
+                    </div>
+                </div>
+            </div>
+              <div class="col-md-3">
+                <div class="card">
+                    <img src="images/Mian_Abdul_rehman_talat.webp" alt="">
+                    <div class="card-body">
+                            <h5 class="card-tittle text-center">Mian Abdul Rehman Talat</h5>
+                            <p class=" text-center">Director</p>
+                    </div>
+                </div>
+            </div>
+              <div class="col-md-3">
+                <div class="card">
+                    <img src="images/Mian_Nouman_Talat.webp" alt="">
+                    <div class="card-body">
+                            <h5 class="card-tittle text-center">Mian Nouman Talat</h5>
+                            <p class=" text-center">Director Customer Experience</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--  -------footer------ -->
+<footer class="mt-5 " style="background-color: rgb(230, 230, 252); ">
+  <div class="container ">
+    <div class="row">
+      <!-- ----------dection 1--------- -->
+      <div class="col-md-6">
+<div class="row">
+  <div class="col-md-6">
+<a href="../index.html"><img src="../project pics/qwer.png" alt="" class="img-fluid mt-5" style=" height: 60px;"></a>
+<h6 class="mt-4 fw-bold">Our Location</h6>
+<p class="mt-2 " style="font-size: 15px;">26 km, Multan Rd, Maraka, Maraka Village, Lahore, Punjab 54000.</p>
+  </div>
+
+
+  <div class="col-md-6">
+
+<h6 class="mt-5 fw-bold">PRODUCTS</h6>
+<ul class="list-unstyled">
+  <a href="../pelac.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Air Conditioner</p></li></a>
+  <a href="../pelrefrigerator.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Refrigerator</p></li></a>
+  <a href="../haiertv.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">LED TV</p></li></a>
+  <a href="../peloven.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Microwave Oven</p></li></a>
+  <a href="../peldispenser.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Water Dispenser</p></li></a>
+  <a href="../pelwash.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Washing Machine</p></li></a>
+</ul>
+  </div>
+</div>
+      </div>
+
+
+<!------------------- section-2 -->
+
+
+<div class="col-md-6">
+<div class="row">
+
+  <div class="col-md-6">
+
+    <h6 class="mt-5 fw-bold">COMPANY</h6>
+    <ul class="list-unstyled">
+      <li><p style="font-size: 14px;">e-Comfort</p></li>
+      <li><p style="font-size: 14px;">B2B</p></li>
+      <li><p style="font-size: 14px;">FAQs</p></li>
+      <li><p style="font-size: 14px;">Blog</p></li>
+      <li><p style="font-size: 14px;">Contact Us</p></li>
+    </ul>
+  </div>
+
+
+<div class="col-md-6">
+  
+  <h6 class="mt-5 fw-bold">Support And Services</h6>
+  <ul class="list-unstyled">
+    <li><p style="font-size: 14px;">Terms of Services</p></li>
+    <li><p style="font-size: 14px;">Privacy Policy</p></li>
+    <li><p style="font-size: 14px;">Warranty & Claims</p></li>
+    <li><p style="font-size: 14px;">Return & Exchange</p></li>
+    <li><p style="font-size: 14px;">Cancellation Feedback</p></li>
+  </ul>
+
+
+  <h4 class="mt-5 fw-bold">FOLLOW US</h4>
+
+<ul class="list-unstyled mt-3">
+  <li class="list-inline-item "><a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook-f" style="color: #000000; "></i></a></li>
+  <li class="list-inline-item mx-2"><a href="https://twitter.com/login" target="_blank"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a></li>
+  <li class="list-inline-item mx-2"><a href="" target="_blank"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a></li>
+  <li class="list-inline-item mx-2"><a href="https://www.linkedin.com/login" target="_blank"><i class="fa-brands fa-linkedin-in" style="color: #000000;"></i></a></li>
+  <li class="list-inline-item mx-2"><a href="https://www.instagram.com/accounts/login" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a></li>
+</ul>
+
+  </div>
+  
+
+</div>
+
+</div>
+
+<hr>
+  <p style="font-size: 12px;" class="text-center fw-bold">&copy; 2023 - HARVEL A PROJECT OF ELECTRONICS PRODUCTS OF COMPANIES. ALL RIGHTS RESERVED.</p>
+
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

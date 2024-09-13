@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background: url("images/main.1.jpg");
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.head-content{
+    font-size: 40px;
+    color: rgb(209, 12, 12);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.vision{
+    padding-right: 50px;
+    
+}
+
+.tcl{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.tcl1{
+    padding-top: 100px;
+    padding-bottom: 50px;   
+}
+
+

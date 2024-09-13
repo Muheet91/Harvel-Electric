@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.tittle{
+	font-family: 'Young Serif', serif;
+	text-align: center;
+}
+
+.mtittle{
+	font-family: 'Young Serif', serif;
+	text-align: center;
+}
+
+.para1{
+	font-size: 20px;
+	text-align: justify;
+	padding: 15px;
+}
+
+.tittleo{
+	font-family: 'Young Serif', serif;
+	font-size: 55px;
+	letter-spacing: 2px;
+	
+}
+/* .us{
+	background-color: dark;
+} */
+
+
+.btn{
+ font-size: 18px;
+ text-align: end;
+ border: 1px solid white;
+ padding: 10px 20px;
+ background-color: black;
+ color: rgb(255, 255, 255);
+}
+.btn:hover{
+	color: black;
+	background-color: rgb(227, 234, 241);
+	border: 1px solid rgba(0, 55, 255, 0.528);
+}
+.btn1{
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+}
+.brd{
+	margin-top: 90px;
+}
+.cardrow{
+	display: flex;
+}

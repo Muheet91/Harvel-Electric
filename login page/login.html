@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login Form Using Bootstrap 5</title>
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+	crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"/>
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+crossorigin="anonymous"referrerpolicy="no-referrer"/>
+
+	<!-- Bootstrap 5 CDN Link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../js/bootstrap.bundle.min.js">
+	<!-- Custom CSS Link -->
+	<link rel="stylesheet" href="style.css">
+	<style>
+		
+@media (max-width: 991px) {
+        .slidebar {
+            background-color: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(100px);
+        }
+      }
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+  
+}
+	</style>
+</head>
+<body>
+
+ <!-- ---navbar--- -->
+
+ <nav class="navbar navbar-expand-lg fixed-top bg-light shadow">
+	<div class="container-fluid">
+	  <!-- ---logo--- -->
+	  <a class="navbar-brand fs-4 " href="../index.html"><img src="../project pics/qwer.png" alt="" style="height: 50px;"></a>
+	  <!-- toggle-- -->
+	  <button
+		class="navbar-toggler shadow-none border-0"
+		type="button"
+		data-bs-toggle="offcanvas"
+		data-bs-target="#offcanvasNavbar"
+		aria-controls="offcanvasNavbar"
+		aria-label="Toggle navigation"
+	  >
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <!-- ---slidebar--- -->
+	  <div
+		class="slidebar offcanvas offcanvas-start"
+		tabindex="-1"
+		id="offcanvasNavbar"
+		aria-labelledby="offcanvasNavbarLabel"
+	  >
+	  <!-- ---slidebar header--- -->
+		<div class="offcanvas-header text-white border-bottom">
+		  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a class="navbar-brand fs-4" href="#"><img src="project pics/qwer.png" alt="" style="height: 50px;"></a></h5>
+		  <button
+			type="button"
+			class="btn-close btn-close-white shadow-none"
+			data-bs-dismiss="offcanvas"
+			aria-label="Close"
+		  ></button>
+		</div>
+		<!-- ---slidebar body -->
+		<div class="offcanvas-body d-flex flex-column p-5 flex-lg-row p-lg-0">
+		  <ul class="navbar-nav justify-content-center align-items-center fs-6 flex-grow-1 pe-3">
+		   
+			
+			
+			  
+			   
+			  
+				
+	  <li class="nav-item dropdown mx2">
+		<a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		 Air Conditioner
+		</a>
+		<ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+		  <li><a class="dropdown-item" href="../harvel/ac.html">Orient</a></li>
+		  <li><a class="dropdown-item" href="../haier.html/haierac.html">Haier</a></li>
+		  <li><a class="dropdown-item" href="../pelac.html">Pel</a></li>
+		  <li><a class="dropdown-item" href="../TV.mz/ac.html">Dawlance</a></li>
+		</ul>
+	  </li>
+  
+	  <li class="nav-item dropdown mx-2">
+		<a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		  Refrigerator
+		</a>
+		<ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+		  <li><a class="dropdown-item" href="../harvel/refrigerator.html">Orient</a></li>
+		  <li><a class="dropdown-item" href="../haier.html/haierfridge.html">Haier</a></li>
+		  <li><a class="dropdown-item" href="../pelrefrigerator.html">Pel</a></li>
+		  <li><a class="dropdown-item" href="../TV.mz/refrigrator.html">Dawlance</a></li>
+		</ul>
+	  </li>
+  
+  
+		   
+	  <li class="nav-item dropdown mx-2">
+		<a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		  Microwave Oven
+  
+		</a>
+		<ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+		  <li><a class="dropdown-item" href="../harvel/oven.html">Orient</a></li>
+		  <li><a class="dropdown-item" href="../haier.html/haieroven.html">Haier</a></li>
+		  <li><a class="dropdown-item" href="../peloven.html">Pel</a></li>
+		  <li><a class="dropdown-item" href="../TV.mz/oven.html">Dawlance</a></li>
+		</ul>
+	  </li>
+  
+	  
+	  <li class="nav-item dropdown mx-2">
+		<a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		  Water Dispenser
+		</a>
+		<ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+		  <li><a class="dropdown-item" href="../harvel/dispenser.html">Orient</a></li>
+		  <li><a class="dropdown-item" href="../haier.html/haierdispenser.html">Haier</a></li>
+		  <li><a class="dropdown-item" href="../peldispenser.html">Pel</a></li>
+		  <li><a class="dropdown-item" href="../TV.mz/dispenser.html">Dawlance</a></li>
+		</ul>
+	  </li>
+  
+	  
+	  <li class="nav-item dropdown mx-2">
+		<a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		  Washing Machine
+		</a>
+		<ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+		 <li><a class="dropdown-item" href="../harvel/wasingmachine.html">Orient</a></li>
+		  <li><a class="dropdown-item" href="../harvel/wasingmachine.html">Haier</a></li>
+		  <li><a class="dropdown-item" href="../pelwash.html">Pel</a></li>
+		  <li><a class="dropdown-item" href="../pelwash.html">Dawlance</a></li>
+		</ul>
+	  </li> 
+  
+  
+	 
+	  <li class="nav-item dropdown mx-2">
+		<a class="nav-link  text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		  LED TV
+		</a>
+		<ul class="dropdown-menu bg-light border-0" aria-labelledby="navbarDropdown">
+		  <li><a class="dropdown-item" href="../dawlancetv.html">Dawlance</a></li>
+		   <li><a class="dropdown-item" href="../haiertv.html">Haier</a></li>
+		 </ul>
+	  </li>
+  
+  
+  
+  
+	  <li class="nav-item mx-2">
+		<a class="nav-link active text-black" aria-current="page" href="../project/About Us.html">About Us</a>
+	  </li>
+  
+  
+  
+  
+  
+  
+	  
+  </ul>
+			  
+		</div>
+	  </div>
+	</div>
+  </nav>
+  
+
+
+
+
+	<!--   login page ... -->
+    <section class="wrapper " >
+		<div class="container mt-5">
+			<div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center needs-validation" novalidate>
+				<div class="logo ">
+					<img decoding="async" src="image/logo.png" class="img-fluid mt-5 mb-3" alt="Logo"  >
+				</div>
+				<form class="rounded bg-white shadow py-5 px-4">
+					<h3 class="text-dark fw-bolder fs-4 mb-2">Sign In to Harvel Electrics</h3>
+					<div class="fw-normal text-muted mb-4"> New Here?
+						<a href="#" class="text-primary fw-bold text-decoration-none">Create an Account</a>
+					</div>
+					<div class="form-floating mb-3">
+						<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+						<label for="floatingInput">Email address</label>
+						<div class="invalid-feedback">
+							Please provide a valid city.
+						  </div>
+					</div>
+					<div class="form-floating">
+						<input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+						<label for="floatingPassword">Password</label>
+					</div>
+					<div class="mt-2 text-end">
+						<a href="#" class="text-primary fw-bold text-decoration-none">Forget Password?</a>
+					</div>
+					<button class="btn btn-primary submit_btn w-100 my-4" type="submit">Continue</button>
+					
+					<div class="text-center text-muted text-uppercase mb-3">or</div>
+					<a href="#" class="btn btn-light login_with w-100 mb-3">
+						<img decoding="async" alt="Logo" src="image/google-icon.svg" class="img-fluid me-3">Continue with Google
+					</a>
+					<a href="#" class="btn btn-light login_with w-100 mb-3">
+						<img decoding="async" alt="Logo" src="image/facebook-icon.svg" class="img-fluid me-3">Continue with Facebook
+					</a>
+					<a href="#" class="btn btn-light login_with w-100 mb-3">
+						<img decoding="async" alt="Logo" src="image/linkedin-icon.svg" class="img-fluid me-3">Continue with Linkedin
+					</a>
+				</form>
+			</div>
+		</div>
+	</section>
+    
+
+<!--  -------footer------ -->
+<footer class="mt-5 " style="background-color: rgb(230, 230, 252); ">
+    <div class="container ">
+      <div class="row">
+        <!-- ----------dection 1--------- -->
+        <div class="col-md-6">
+  <div class="row">
+    <div class="col-md-6">
+  <a href="../index.html"><img src="../project pics/qwer.png" alt="" class="img-fluid mt-5" style=" height: 60px;"></a>
+  <h6 class="mt-4 fw-bold">Our Location</h6>
+  <p class="mt-2 " style="font-size: 15px;">26 km, Multan Rd, Maraka, Maraka Village, Lahore, Punjab 54000.</p>
+    </div>
+  
+  
+    <div class="col-md-6">
+  
+  <h6 class="mt-5 fw-bold">PRODUCTS</h6>
+  <ul class="list-unstyled">
+    <a href="../pelac.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Air Conditioner</p></li></a>
+    <a href="../pelrefrigerator.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Refrigerator</p></li></a>
+    <a href="../haiertv.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">LED TV</p></li></a>
+    <a href="../peloven.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Microwave Oven</p></li></a>
+    <a href="../peldispenser.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Water Dispenser</p></li></a>
+    <a href="../pelwash.html" class="text-decoration-none text-black"><li><p style="font-size: 14px;">Washing Machine</p></li></a>
+  </ul>
+    </div>
+  </div>
+        </div>
+  
+  
+  <!------------------- section-2 -->
+  
+  
+  <div class="col-md-6">
+  <div class="row">
+  
+    <div class="col-md-6">
+  
+      <h6 class="mt-5 fw-bold">COMPANY</h6>
+      <ul class="list-unstyled">
+        <li><p style="font-size: 14px;">e-Comfort</p></li>
+        <li><p style="font-size: 14px;">B2B</p></li>
+        <li><p style="font-size: 14px;">FAQs</p></li>
+        <li><p style="font-size: 14px;">Blog</p></li>
+        <li><p style="font-size: 14px;">Contact Us</p></li>
+      </ul>
+    </div>
+  
+  
+  <div class="col-md-6">
+    
+    <h6 class="mt-5 fw-bold">Support And Services</h6>
+    <ul class="list-unstyled">
+      <li><p style="font-size: 14px;">Terms of Services</p></li>
+      <li><p style="font-size: 14px;">Privacy Policy</p></li>
+      <li><p style="font-size: 14px;">Warranty & Claims</p></li>
+      <li><p style="font-size: 14px;">Return & Exchange</p></li>
+      <li><p style="font-size: 14px;">Cancellation Feedback</p></li>
+    </ul>
+  
+  
+    <h4 class="mt-5 fw-bold">FOLLOW US</h4>
+  
+  <ul class="list-unstyled mt-3">
+    <li class="list-inline-item "><a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook-f" style="color: #000000; "></i></a></li>
+    <li class="list-inline-item mx-2"><a href="https://twitter.com/login" target="_blank"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a></li>
+    <li class="list-inline-item mx-2"><a href="" target="_blank"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a></li>
+    <li class="list-inline-item mx-2"><a href="https://www.linkedin.com/login" target="_blank"><i class="fa-brands fa-linkedin-in" style="color: #000000;"></i></a></li>
+    <li class="list-inline-item mx-2"><a href="https://www.instagram.com/accounts/login" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a></li>
+  </ul>
+  
+    </div>
+    
+  
+  </div>
+  
+  </div>
+  
+  <hr>
+    <p style="font-size: 12px;" class="text-center fw-bold">&copy; 2023 - HARVEL A PROJECT OF ELECTRONICS PRODUCTS OF COMPANIES. ALL RIGHTS RESERVED.</p>
+  
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+
+
+
+</body>
+</html>
+

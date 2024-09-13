@@ -1,0 +1,79 @@
+
+/* single page wensite */
+body {
+	background: #f1fbff;
+  overflow-x: hidden;
+}
+.navbar .navbar-brand
+{ text-transform: uppercase;
+ 
+  font-size: 30px;
+}
+
+
+.navbar a{
+  font-size: 15px;
+   text-transform: uppercase;
+  font-weight: 400; 
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.section-padding {
+	padding: 100px 0;
+}
+.team .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.about .img-fluid {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
